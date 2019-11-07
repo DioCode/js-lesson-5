@@ -196,6 +196,7 @@ function onlyEnglish(people) {
     }
   }
   let np = [newPeople, people];
+  // or return [newPeople, people];
   return np;
 }
 
